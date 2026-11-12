@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividades</title>
+    <style>
+    body{
+        text-align: center;
+        background-color: #0f1014;
+        color: #ff006f;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }  
+</style>
+</head>
+
+<body>
+    <h1>Aperte a tecla "f12" no seu teclado para ver as suas tarefas</h1>
+
+    <script>
+        let tarefas = ["06h - acordar \n","07h - escola \n","12h- chegar em casa \n","13h - trabalhar \n","19h - chegar em casa \n","21h - tomar banho \n","22h - dormir \n"];
+
+        tarefas.lengt
+        console.log(`você tem ${tarefas.length} tarefas pendentes`);
+
+        tarefas.push("12h30 - almoçar");
+        console.log(`você adicionou a trefa ${tarefas[3]}`);
+
+        tarefas.sort()
+        console.log(`tarefas por horario: \n${tarefas}`);
+
+        tarefas.shift() 
+        console.log(`você finalizou a tarefa \n${tarefas[0]}`);
+
+        tarefas.pop() 
+        console.log(`você desistiu da tarefa \n${tarefas[5]}`);
+
+        tarefas.pop() 
+        console.log(`você removeu a tarefa \n${tarefas[3]}`);
+
+    </script>
+</body>
+
+</html>
